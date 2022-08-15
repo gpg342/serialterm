@@ -5550,7 +5550,7 @@ hterm.Keyboard = function(terminal) {
    * If true, the backspace should send BS ('\x08', aka ^H).  Otherwise
    * the backspace key should send '\x7f'.
    */
-  this.backspaceSendsBackspace = false;
+  this.backspaceSendsBackspace = true;
 
   /**
    * The encoding method for data sent to the host.
