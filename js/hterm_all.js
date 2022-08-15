@@ -7645,7 +7645,7 @@ hterm.PreferenceManager.defaultPreferences = {
    '  center'],
 
   'backspace-sends-backspace':
-  [hterm.PreferenceManager.categories.Keyboard, false, 'bool',
+  [hterm.PreferenceManager.categories.Keyboard, true, 'bool',
    'If true, the backspace should send BS (\'\\x08\', aka ^H).  Otherwise ' +
    'the backspace key should send \'\\x7f\'.'],
 
